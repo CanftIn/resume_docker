@@ -11,6 +11,12 @@ build镜像：
 docker build -t resume:0.0.1 .
 ```
 
+run:
+```sh
+docker run -it canftin/resume /bin/bash
+```
+
+
 复制resume.pdf到本地：
 ```sh
 docker cp [container id]:/resume/resume.pdf .
